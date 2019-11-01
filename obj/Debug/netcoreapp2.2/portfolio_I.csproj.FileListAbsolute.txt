@@ -21,3 +21,5 @@
 /Users/ivar/Desktop/Bootcamp/C#/portfolio_I/obj/Debug/netcoreapp2.2/portfolio_I.RazorTargetAssemblyInfo.cs
 /Users/ivar/Desktop/Bootcamp/C#/portfolio_I/obj/Debug/netcoreapp2.2/portfolio_I.Views.pdb
 /Users/ivar/Desktop/Bootcamp/C#/portfolio_I/obj/Debug/netcoreapp2.2/portfolio_I.csproj.CopyComplete
+/Users/ivar/Desktop/Bootcamp/C#/portfolio_I/obj/Debug/netcoreapp2.2/Razor/Views/Home/Contact.g.cshtml.cs
+/Users/ivar/Desktop/Bootcamp/C#/portfolio_I/obj/Debug/netcoreapp2.2/Razor/Views/Home/Projects.g.cshtml.cs

@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -26,6 +25,7 @@
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
       crossorigin="anonymous"
     ></script>
+    <title>Document</title>
   </head>
   <body>
     <div class="container">
@@ -40,38 +40,19 @@
           <a class="nav-link" href="/contact">Contact</a>
         </li>
       </ul>
-      <h1 class="display-3 text-center">About Me</h1>
-      <div class="row">
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-            <img
-              src="https://scontent-den4-1.xx.fbcdn.net/v/t1.0-9/71590311_10215282504271977_5763952720910221312_n.jpg?_nc_cat=109&_nc_oc=AQncb3zzluw6-GinFbWzTcXKibyGAVUhKd7vMv7t7RIQG2uJVH7NZLzl22z4M_jkGFI&_nc_ht=scontent-den4-1.xx&oh=2a2467dc969d2d3b0fb8415f6acce003&oe=5E1E015B"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Ivar Brandt</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <p>I like stuff!</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-            </div>
-          </div>
-        </div>
+      <h1 class="display-3 text-center">Contact Me!</h1>
+      <div class="form-group" style="max-width: 30rem;">
+        <form action="/" method="POST">
+          Name<input type="text" class="form-control" name="first_name" />
+          Email<input type="text" class="form-control" name="last_name" />
+          Message<input
+            name="message"
+            type="text"
+            class="form-control rows:3"
+          />
+          <a href="/" class="btn btn-primary" style="margin-top:1rem">Send</a>
+        </form>
       </div>
     </div>
   </body>
 </html>
-
-<h1></h1>
